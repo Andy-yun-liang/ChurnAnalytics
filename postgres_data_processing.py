@@ -10,7 +10,7 @@ pg_conn = psycopg2.connect(
     # password=os.environ.get("PPASS"),
     dbname="churn",
     user="postgres",
-    password="Bluekise1!",
+    password="postgrespassword",
     host="localhost",
     port="5432"
 )
